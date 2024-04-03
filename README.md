@@ -7,3 +7,11 @@ Run `npm run dev` and access the page to see the target error.
 An environment that could be recreated:
 - Ubuntu 22.04.3 LTS with WSL2
 - Nodejs 20.12.0 with asdf v0.13.1-0586b37
+
+## Pre-required
+
+Create `.dev.vars` file and set connection string to `DB_URI`
+
+```
+DB_URI="postgres://[CONNECTION_STRING]"
+```
